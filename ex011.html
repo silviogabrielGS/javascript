@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sistema de pais</title>
+</head>
+<body>
+    <h1> verificando se é estrangeiro</h1>
+    de qual pais você é
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar" onclick="natalidade()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function natalidade() {
+            var pais = document.getElementById('pais')
+            var res = document.getElementById('res')
+            var natalidade = String(pais.value)
+            if (natalidade !='brasil') {
+
+                
+                res.innerHTML = 'você é estrangeiro' 
+            } else {
+                res.innerHTML = 'você é brasileiro'
+            }
+        }
+    </script>
+    
+</body>
+</html>
