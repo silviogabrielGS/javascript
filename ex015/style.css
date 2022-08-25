@@ -1,11 +1,12 @@
 body {
-    background-color: rgb(70, 165, 255);
+    background-color: rgb(136, 136, 136);
     font-family: Arial, Helvetica, sans-serif;
 }
  h1 {
     color: white;
     text-align: center;
     font-size: 60px;
+
  }
 
  section {
@@ -19,9 +20,15 @@ body {
     text-align: center;
  }
 
+ div {
+   margin: 25px;
+ }
+
  img {
    width: 100%;
    border-radius: 50%;
+   width: 300px;
+   height: 300px;
  }
 
  footer {
