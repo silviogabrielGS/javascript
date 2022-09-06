@@ -13,7 +13,10 @@ function verificar() {
         img.setAttribute("id" , "foto")
         if (fsex[0].checked) {
             genero = " homem "
-            if (idade < 10) {
+            if (idade < 3) {
+                // bebe
+                img.setAttribute("src" , "foto-bebe-m.jpg")
+            } else if (idade < 10) {
                 // criança
                 img.setAttribute("src" , "foto-criança-m.jpg")
             } else if (idade < 21) {
@@ -21,22 +24,25 @@ function verificar() {
                 img.setAttribute("src" , "foto-jovem-m.jpg")
             } else if (idade < 50) {
                 // adulto
-                img.setAttribute("src" , "foto-bebe-m.jpg")
+                img.setAttribute("src" , "foto-adulto-m.jpg")
             } else if (idade > 50) {
                 // idoso
                 img.setAttribute("src" , "foto-idoso-m.jpg")
             }
         } else if (fsex[1].checked) {
             genero =" mulher "
-            if (idade < 10) {
-                // criança
+              if (idade < 3) {
+                // bebe
                 img.setAttribute("src" , "foto-bebe-f.jpg")
+            } else if (idade < 10) {
+                // criança
+                img.setAttribute("src" , "foto-criança-f.jpg")
             } else if (idade < 21) {
                 // jovem
-                img.setAttribute("src" , "foto-jovem-f.jpg")
+                img.setAttribute("src" , "foto-jovem-f.png")
             } else if (idade < 50) {
                 // adulto
-                img.setAttribute("src" , "foto-jovem-f.jpg")
+                img.setAttribute("src" , "foto-adulto-f.jpg")
             } else if (idade > 50) {
                 // idoso
                 img.setAttribute("src" , "foto-idoso-f.jpg")
