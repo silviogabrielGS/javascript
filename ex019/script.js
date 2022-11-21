@@ -3,20 +3,20 @@ function contar() {
     var fim = document.getElementById("fim")
     var passo = document.getElementById("passo")
     var res = document.getElementById("res")
-    var c = 1
+    var c
 
     if (ini.value.length == 0) {
         window.alert("preencha corretamente os dados")
     } else {
-        var ini = Number(ini.value)
-        var fim = Number(fim.value)
-        var passo = Number(passo.value)
-
-        for (ini ; fim < ini ; passo++) {
-            res.innerHTML = passo
-
-        } 
+         res.innerHTML = ("contando...")
+         var i = Number(ini.value)
+         var f = Number (fim.value)
+         var p = Number (passo.value)
+         
+         for (var c = i ; i <= f ; c += p) {
+            res.innerHTML += "." + c 
+            
+         }
         
     }
-}
-  
+    }
