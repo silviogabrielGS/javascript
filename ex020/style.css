@@ -1,0 +1,46 @@
+@charset "UTF-8" ;
+
+body {
+    background-color: rgb(56, 117, 216);
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+
+main {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.504);
+    max-width: 500px;
+    margin: auto;
+    height: 400px;
+}
+
+div {
+    margin: auto;
+}
+
+
+label {
+    display: inline-block;
+    padding: 10px;
+}
+
+#button {
+    display: block;
+    margin: 10px;
+    margin-top: 300px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
