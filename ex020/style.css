@@ -33,9 +33,9 @@ label {
 }
 
 #button {
-    display: block;
-    margin: 10px;
-    margin-top: 300px;
+    display:inline-block;
+    margin: 5px;
+   
 }
 
 img {
